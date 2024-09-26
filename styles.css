@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
+*{
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: 1.19rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading, ul{
+    display: flex;
+    flex: auto;
+    align-items: center;
+}
+.logo{
+    font-size: 2.1rem;
+    margin-left: 0;
+    font-weight: 900;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.secret-hand{
+    transition: 0.5s ease;
+}
+.secret-hand:hover{
+    transform: scale(1.1);
+}
+a{
+    color: #495057;
+    font-weight: 500;
+    margin: 1rem;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+nav a:hover, nav a.active{
+    color: black;
+    border-bottom: 3px solid black;
+}
+.heading img{
+    flex: 0;
+    width: 4rem;
+    margin-left: -1.5rem;
+}
+.container img{
+    float: left;
+    margin-right: 4rem;
+    border-radius: 2rem;
+}
+.container .main-headline{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.socials-icons{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.socials-icons a i{
+    font-size: 2rem;
+}
+.socials-icons a{
+    transition: 0.3s ease;
+    border: none;
+}
+.socials-icons a:hover{
+    transform: scale(1.4) translateY(-5px);
+}
+.linkedin:hover{
+    color: blue;
+}
+.github:hover{
+    color: black;
+}
+.instagram:hover{
+    color: #E1306C;
+}
+
+p{
+    margin: 1.3rem;
+}
+section h2{
+    font-size: 4rem;
+    color: black;
+}
+section{
+    margin: 3rem;
+    color: #495057;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote{
+    color: black;
+    font-weight: 700;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.arrow{
+    margin-top: 3rem;
+    position: absolute;
+    border-left: 5px solid #495057;
+    border-top: 5px solid #495057;
+    transform: rotate(45deg);
+    height: 2rem;
+    width: 2rem;
+    transition: 0.4 ease;
+}
+
+.arrow:hover{
+    border-left-color: black;
+    border-top-color: black ;
+}
+@media (max-width:1282px){
+    .main-headline{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1100px){
+    .container img{
+        float: none;
+        margin: 0;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* -------------------------ZIVOTOPIS--------------------- */
+
+.zivotopis-section{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    color: #212529;
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.zivotopis-section address p{
+    font-weight: 500;
+}
+.zivotopis-section a{
+    color: #212529;
+    font-weight: 400;
+}
+.zivotopis-section img{
+    border-radius: 50%;
+    border: 3px solid #212529;
+}
+
+.first-column *, .first-column{
+    background-color: #d6eadf;
+    padding: 0;
+    margin: 0;
+}
+.first-column{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-between;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border: 3px solid #212529;
+    border-right: none;
+    
+}
+.first-column, .main-text{
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.5);
+}
+.first-column h3{
+    margin-bottom: 1rem;
+}
+.main-text {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin: 0;
+    padding: 3rem;
+    background-color: #adb5bd;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border:3px solid #212529;
+    border-left: none;
+}
+.main-text *{
+    background-color: #adb5bd;
+}
+
+.main-text span{
+    font-weight: bold;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text h3{
+    color: #212529;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    border-bottom: 3px solid #212529;
+}
+.right-text h3{
+    margin: 0;
+}
+.main-text p{
+    margin: 0;
+}
+.main-text ul{
+    display: block;
+}
+.main-text li{
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+/* -----------Moj Rozvrh-------------- */
+th{
+    color: #212529;
+    background-color: #adb5bd;
+    border-radius: 5%;
+}
+td{
+    border: 2px solid #212529;
+}
+td div, td{
+    background-color: #b8f2e6;
+}
+td.filler{
+    background-color: white;
+}
+td.cvicenie, td.cvicenie div{
+    background-color: #ffa69e;
+}
+.filler{
+    border: none;
+}
+tr{
+    text-align: center;
+    color: #212529;
+    border: 3px solid #495057;
+}
+.break{
+    border: 0.1px solid #212529;
+}
+
+table{
+    /* border-bottom: 1.34px solid #212529; */
+    margin: auto;
+}
+/* ----------Mapa----------- */
+.mapa-sveta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+.mapa-sveta img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.mapa-content h1{
+    text-align: center;
+    color: #212529;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+.mapa-content{
+    margin: 0;
+}
+.pin{
+    background: red;
+    position: absolute;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    opacity: 0.6;
+}
+.pin:hover{
+    transform: scale(1.4);
+    opacity: 1;
+}
+
+.pin::before{
+    content: '';
+    background: red;
+    border: 1px solid black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.pin span{
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #adb5bd;
+    border-radius: 3em;
+    padding: 0.3em 0.6em;
+    color: #212529;
+    font-size: 0.9em;
+    display: none;
+    transition: 0.5 ease;
+}
+.pin:hover span{
+    display: inline-block;
+}
+.slovakia{
+    top: 29.3%;
+    left:52.5%;
+}
+.cesko{
+    top: 28.5%;
+    left: 51.3%;
+}
+.polsko{
+    top: 27%;
+    left: 52.5%;
+}
+.madarsko{
+    top: 30%;
+    left: 52.3%;
+}
+.rakusko{
+    top: 29.8%;
+    left: 51.2%;
+}
+.cyprus{
+    left: 56.4%;
+    top: 36.6%;
+}
+
+.slovinsko{
+    top: 30.6%;
+    left: 51.3%;
+}
+
+.chorvatsko{
+    top: 31.6%;
+    left: 51.6%;
+}
+
+.spanielsko{
+    top: 34%;
+    left: 46.5%;
+}
+
+.grecko{
+    top: 35%;
+    left: 53.5%;
+}
+.holandsko{
+    top:27.1%;
+    left: 48.7%;
+}
+
+.korea{
+    top: 32.5%;
+    left: 82.8%;
+}
+
+.cina{
+    top: 40.6%;
+    left: 80%;
+}
+
+.thajsko{
+    top: 45.2%;
+    left: 77%;
+}
+
+.usa{
+    top: 32%;
+    left: 20%;
+}
+.francuzsko{
+    top: 30.5%;
+    left: 48%;
+}
+.nemecko{
+    top: 28%;
+    left: 49.8%;
+}
+
+.pin.staty, .pin.staty::before{
+    background: blue;
+}
