@@ -1,39 +1,40 @@
-# 👤 Osobná webová stránka  
+# 👤 Personal Website  
 
-Tento projekt je jednoduchá webová stránka o mne, vytvorená pomocou **HTML a CSS**. Obsahuje informácie o mojich záľubách, životopise a školskom rozvrhu.  
-
----
-
-## 🌎 Obsah stránky  
-
-✔️ **O mne** – Krátky úvod a informácie o mojich záľubách.  
-✔️ **Životopis** – Prehľad mojich vzdelávacích a pracovných skúseností.  
-✔️ **Školský rozvrh** – Moje aktuálne rozvrhnuté hodiny v prehľadnej tabuľke.  
-✔️ **Čistý dizajn** – Stránka je navrhnutá len pomocou **HTML a CSS**, bez JavaScriptu.  
-✔️ **Responzivita** – Prispôsobená pre rôzne zariadenia, od mobilov po počítače.  
+This project is a simple personal webpage created using **HTML and CSS**. It contains information about my hobbies, resume, and school schedule.  
 
 ---
 
-## 🛠️ Použité technológie  
+## 🌎 Website Content  
 
-- **HTML** – Štruktúra webovej stránky.  
-- **CSS** – Dizajn a rozloženie prvkov.  
-
----
-
-## 📷 Náhľad stránky  
-
-🔗 **Pozrite si webovú stránku:** [https://webte1.fei.stuba.sk/~xoh/zz/]  
-
-![Ukážka webstránky](https://github.com/user-attachments/assets/2f7cbfe8-50a8-4556-b45d-bfb858058447)
+✔️ **About Me** – A brief introduction and information about my hobbies.  
+✔️ **Resume** – An overview of my educational and work experience.  
+✔️ **School Schedule** – My current class schedule displayed in a structured table.  
+✔️ **Clean Design** – Built using only **HTML and CSS**, without JavaScript.  
+✔️ **Responsive** – Adapted for various devices, from mobile phones to desktops.  
 
 ---
 
-## 🚀 Inštalácia  
+## 🛠️ Technologies Used  
 
-Ak chcete spustiť projekt lokálne:  
+- **HTML** – Website structure.  
+- **CSS** – Styling and layout.  
+
+---
+
+## 📷 Website Preview  
+
+🔗 **View the website:** [https://webte1.fei.stuba.sk/~xoh/zz/]  
+
+![Website Preview](https://github.com/user-attachments/assets/2f7cbfe8-50a8-4556-b45d-bfb858058447)
+
+---
+
+## 🚀 Installation  
+
+To run the project locally:  
 
 ```bash
 git clone https://github.com/teakminOh/about_me.git
 cd about_me
 open index.html
+```
